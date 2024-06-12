@@ -12,6 +12,7 @@ nav {
   justify-content: space-between;
   border-bottom: 1px solid #18a0fb;
   padding-bottom: 1%;
+  align-items: center;
 }
 
 .logo {
@@ -23,9 +24,7 @@ ul li {
   padding: 0%;
   text-decoration: none;
   display: flex;
-  justify-content: space-between;
   gap: 15px;
-  align-items: center;
   font-size: 90%;
 }
 
@@ -101,10 +100,11 @@ span {
 .share {
   display: flex;
   justify-content: space-between;
-  width: 30%;
+  width: 50%;
   gap: 5%;
   align-items: center;
   height: 45px;
+  font-size: 150%;
 }
 
 .p-search{
@@ -121,6 +121,8 @@ span {
   width: 100%;
   height: 80%;
   border-radius: 100px;
+  border: 0;
+  padding: 4%;
 }
 
 .more-post {

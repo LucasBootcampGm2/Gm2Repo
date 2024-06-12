@@ -74,13 +74,15 @@ input[type="search"] {
   border-radius: 0% 5% 5% 0%;
 }
 
+main {
+  padding: 4% 5%;
+}
+
 .section-feature {
-  padding: 5% 4% 0% 4%;
   margin-bottom: 10%;
 }
 
 .section-category {
-  padding: 0% 5% 5% 5%;
   margin-bottom: 10%;
 }
 
@@ -97,6 +99,13 @@ h2 {
 .more {
   display: flex;
   padding: 0%; 
+  align-items: center;
+  gap: 5px;
+}
+
+.flecha {
+  height: 20px;
+  width: 20px;
 }
 
 img[href="#more"] {
@@ -107,7 +116,6 @@ img[href="#more"] {
 .container-card1 {
   display: flex;
   justify-content: space-between;
-  padding: 1%;
 }
 
 .card1 {
@@ -178,7 +186,6 @@ footer {
 .container-card2 {
   display: flex;
   justify-content: space-around;
-  padding-top: 3%;
   height: 814px;
 }
 

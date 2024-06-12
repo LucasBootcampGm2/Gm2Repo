@@ -1,0 +1,279 @@
+body {
+  margin: 0%;
+}
+
+header {
+  padding: 2% 5%;
+  color: #18a0fb;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #18a0fb;
+  padding-bottom: 1%;
+}
+
+.logo {
+  font-size: 36px;
+}
+ul,
+ul li {
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  align-items: center;
+  font-size: 90%;
+}
+
+.search-content {
+  display: flex;
+  height: 40px;
+}
+
+.button-search {
+  background-color: #18a0fb;
+  color: #FFFFFF;
+  width: 77px;
+  border-radius: 6px 0px 0px 6px;
+  border: 1px solid #18a0fb;
+}
+
+#search {
+  width: 233px;
+  height: 40px;
+  border: 1px solid #18a0fb;
+  border-radius: 0px 6px 6px 0px;
+
+}
+
+p {
+  margin: 0%;
+}
+
+main {
+  display: flex;
+  padding: 2% 5% 5% 5%;
+}
+
+section {
+  width: 70%;
+}
+
+
+.home {
+  display: flex;
+  gap: 1%;
+}
+
+span {
+  color: #18a0fb;
+}
+
+.author {
+  display: flex;
+  gap: 10px;
+}
+
+.author a {
+  padding: 0% 1%;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  text-decoration: none;
+  color: #18a0fb;
+  border-color: black;
+}
+
+.big-p {
+  margin: 4% 0%;
+}
+
+.container-share {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3% 0% 5% 0%;
+}
+
+.share {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  gap: 5%;
+  align-items: center;
+  height: 45px;
+}
+
+.p-search{
+  width: 200%;
+}
+
+.container-button-designWeb {
+  display: flex;
+  width: 20%;
+  gap: 5%;
+}
+
+.container-button-designWeb button {
+  width: 100%;
+  height: 80%;
+  border-radius: 100px;
+}
+
+.more-post {
+  display: flex;
+  gap: 7%; 
+}
+
+.more-post-card{
+  width: 30%;
+}
+
+img {
+  width: 100%;
+}
+
+.comment-inputs {
+  display: flex;
+  gap: 10px;
+  width: 70%;
+  height: 40px;
+}
+
+
+#inputUser {
+  width: 30%;
+  border-radius: 5%;
+}
+
+#inputComment {
+  width: 50%;
+  border-radius:  5%;
+}
+
+button {
+  width: 25%;
+  border-radius: 5%;
+}
+
+.container-comments {
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  width: 70%;
+}
+
+.users-comments {
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 3%;
+  background-color:  #C4C4C44D;
+  margin-top: 5%;
+}
+
+.align {
+  text-align: center;
+}
+
+.comment {
+  width: 90%;
+  padding: 2% 4%;
+}
+
+.reply {
+  display: flex;
+  gap: 2%;
+  margin-top: 3%;
+}
+
+aside {
+  width: 20%;
+  margin-top: 5%;
+}
+
+h3 {
+  font-size: 130%;
+}
+
+aside ul{
+  display: flex;
+  flex-direction: column;
+}
+
+a[href="#lorem"] {
+  text-decoration: none;
+  color:#18a0fb;
+}
+
+.space-hr {
+  margin: 6% 2% 0% 2%;
+  height: 40px;
+  color:  #6DE4EA;
+}
+
+.lorem-padding1 {
+  padding-left: 7%;
+}
+
+.lorem-padding2 {
+  padding-left: 14%;
+}
+
+hr {
+  border: 1px solid #6DE4EA
+}
+
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0% 5%;
+  background-color: #000000CC;
+  height: 200px;
+}
+
+.footer-logo{
+  font-family: "Cinzel Decorative";
+  color: white;
+  font-size: 36px;
+
+}
+
+
+.footer-list {
+  color: white;
+  list-style: none;
+  margin: 0%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 8%;
+  width: 30%;
+}
+
+.footer-item {
+  color: white;
+  width: 30%;
+  height: 18px;
+  font-size: 80%;
+  margin: 0%;
+}
+
+
+a[href="#aditional-link"], a:link[href="#aditional-link"] {
+  text-decoration: none;
+  color: white;
+  align-content: center;
+  margin: 0;
+  padding: 0%;
+
+}
+
+.footer-company {
+  color: #FFFFFF;
+  font-size: 80%;
+}

@@ -1,0 +1,290 @@
+body {
+  font-family: "Montserrat";
+  max-width: 1680px;
+  margin: 0%;
+}
+
+header {
+  margin-top: 1%;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  width: 90%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #18a0fb
+}
+
+.container-logo {
+  font-family: "Cinzel Decorative";
+  color: #18a0fb;
+  font-size: 200%;
+}
+
+.nav-list {
+  color: #18a0fb;
+  list-style: none;
+  margin: 0%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15%;
+  width: 25%;
+}
+
+a, a:link {
+  text-decoration: none;
+  color: #18a0fb;
+  align-content: center;
+  margin: 0;
+  padding: 0%;
+
+}
+
+.nav-item {
+  color: #18a0fb;
+  width: 15%;
+  height: 18px;
+  font-size: 80%;
+  margin: 0%;
+}
+
+.container-search {
+  width: 300px;
+}
+
+button {
+  width: 70px;
+  height: 40px;
+  border: 0px;
+  border-radius: 6% 0% 0% 6%;
+  background-color: #18a0fb;
+  color: #FFFFFF;
+}
+
+input[type="search"] {
+  height: 40px;
+  width: 220px;
+  border: 1px solid #18a0fb;
+  border-radius: 0% 5% 5% 0%;
+}
+
+.section-feature {
+  padding: 5% 4% 0% 4%;
+  margin-bottom: 10%;
+}
+
+.section-category {
+  padding: 0% 5% 5% 5%;
+  margin-bottom: 10%;
+}
+
+.container-title1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  margin: 0%;
+}
+
+
+.more {
+  display: flex;
+  padding: 0%; 
+}
+
+img[href="#more"] {
+  align-content: center; 
+}
+
+
+.container-card1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+}
+
+.card1 {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;   
+  border: 1px solid rgba(0, 0, 0, 0.329);
+  border-radius: 2%;
+}
+
+.article-grande {
+  padding: 7% 10% 10% 10%;
+  height: auto;
+}
+
+.article-grande-column {
+  padding: 7% 10% 10% 10%;
+  height: auto;
+  font-size: 120%;
+}
+
+.container-feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0%;
+}
+
+.container-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+h3 {
+  margin: 0;
+}
+
+.container-author {
+  display: flex;
+  justify-content: space-between;
+  font-size: 70%;
+  width: 25%;
+  margin-top: 3%;
+}
+
+.author {
+  margin-bottom: 0;
+  margin-top: 8%;
+}
+
+article p {
+  margin-top: 10%;
+} 
+
+footer {
+  background: #000000CC;
+  display: flex;
+  justify-content: space-around;
+  height: 264px;
+}
+
+.img-grande {
+  border-radius: 2% 2% 0% 0%;
+  width: 100%;
+}
+
+.container-card2 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3%;
+  height: 814px;
+}
+
+
+.card-grande {
+  width: 55%;
+  background-color: #FFFFFF;   
+  border: 1px solid rgba(0, 0, 0, 0.329);
+  border-radius: 2%;
+  height: 814px;
+}
+
+.img-grande-category {
+  border-radius: 2% 2% 0% 0%;
+  width: 100%;
+  height: 496px;
+}
+
+.container-card-column {
+  width: 40%;
+  display: flex;
+  flex-direction: 
+  column;  padding: 0% 0% 5% 0%;
+  height: auto;
+}
+
+.card-column {
+  background-color: #FFFFFF;   
+  border: 1px solid rgba(0, 0, 0, 0.329);
+  border-radius: 2%;
+  height: 374px;
+  margin-bottom: 16%;
+}
+
+.card-column2 {
+  background-color: #FFFFFF;   
+  border: 1px solid rgba(0, 0, 0, 0.329);
+  border-radius: 2%;
+  height: 374px;
+}
+
+.img-column {
+  width: 100%;
+  height: 206px;
+}
+
+.a-min-ago {
+  margin: 0%;
+}
+
+.card-column article {
+  padding: 3% 10% 3% 10%;
+}
+
+.article-column {
+  height: 32%;
+  padding: 5% 10% 5% 10%;
+  font-size: 85%;
+}
+
+.lorem-column {
+  margin-top: 7%;
+}
+
+#footer {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0% 5%;
+}
+
+.footer-logo{
+  font-family: "Cinzel Decorative";
+  color: white;
+  font-size: 200%;
+}
+
+
+.footer-list {
+  color: white;
+  list-style: none;
+  margin: 0%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 8%;
+  width: 30%;
+}
+
+.footer-item {
+  color: white;
+  width: 30%;
+  height: 18px;
+  font-size: 80%;
+  margin: 0%;
+}
+
+
+a[href="#aditional-link"], a:link[href="#aditional-link"] {
+  text-decoration: none;
+  color: white;
+  align-content: center;
+  margin: 0;
+  padding: 0%;
+
+}
+
+.footer-company {
+  color: #FFFFFF;
+  font-size: 80%;
+}

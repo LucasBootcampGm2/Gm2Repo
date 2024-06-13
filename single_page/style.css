@@ -1,5 +1,6 @@
 body {
-  margin: 0%;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 header {
@@ -86,9 +87,14 @@ span {
   border-color: black;
 }
 
+.equis {
+  margin-top: 3%;
+}
+
 .big-p {
   margin: 4% 0%;
 }
+
 
 .container-share {
   display: flex;
@@ -100,11 +106,15 @@ span {
 .share {
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 20%;
   gap: 5%;
   align-items: center;
   height: 45px;
   font-size: 150%;
+}
+
+.iconos {
+  display: flex;
 }
 
 .p-search{
@@ -148,17 +158,24 @@ img {
 
 #inputUser {
   width: 30%;
-  border-radius: 5%;
+  border-radius: 5px;
+  border: 1px solid #000000CC;
+  text-align: center;
 }
 
 #inputComment {
   width: 50%;
-  border-radius:  5%;
+  border-radius: 5px;
+  border: 1px solid #000000CC;
+  text-align: center;
 }
 
-button {
+.comment-button {
   width: 25%;
-  border-radius: 5%;
+  border-radius: 5px;
+  border: #000000CC;
+  color: #FFFFFF;
+  background-color: #18a0fb;
 }
 
 .container-comments {
@@ -179,6 +196,7 @@ button {
 
 .align {
   text-align: center;
+  font-size: 114%;
 }
 
 .comment {
@@ -189,7 +207,7 @@ button {
 .reply {
   display: flex;
   gap: 2%;
-  margin-top: 3%;
+  margin-top: 5%;
 }
 
 aside {
@@ -226,11 +244,11 @@ a[href="#lorem"] {
 }
 
 hr {
-  border: 1px solid #6DE4EA
+  border: 1px solid #6DE4EA;
 }
 
 
-#footer {
+.footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -264,7 +282,6 @@ hr {
   font-size: 80%;
   margin: 0%;
 }
-
 
 a[href="#aditional-link"], a:link[href="#aditional-link"] {
   text-decoration: none;

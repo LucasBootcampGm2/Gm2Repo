@@ -79,11 +79,19 @@ main {
 }
 
 .section-feature {
-  margin-bottom: 10%;
+  margin-bottom: 8%;
+}
+
+.section-feature__title
+.section-feature__title-icon
+
+hr {
+  width: 4%;
+  border: 1px solid aqua;
 }
 
 .section-category {
-  margin-bottom: 10%;
+  margin: 4% 0%;
 }
 
 .container-title1 {
@@ -185,7 +193,7 @@ footer {
 
 .container-card2 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 814px;
 }
 

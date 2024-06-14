@@ -1,13 +1,15 @@
 body {
   margin: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
   background-image: url(/tickets_page/imagenes/stars.png); 
   position: relative;
+  background-color: black;
 }
 
 header {
   margin: 0;
-  background-color: #5434a57b;
+  background-color: rgba(22, 10, 20, 0.774);
+  padding: 15px 0;
 }
 
 .navbar {
@@ -22,10 +24,16 @@ header {
   list-style: none;
   padding: 0;
   align-items: center;
+  margin: 0;
+}
+
+.nav_list-logo {
+  display: flex;
+  align-items: center;
 }
 
 .nav_list-links {
-  margin-left: 85px;
+  margin-left: 30px;
 }
 
 .nav_list-links a {
@@ -35,11 +43,7 @@ header {
   font-size: 14px;
 }
 
-.nav_list-links a:hover {
-  border-bottom: 2px solid #ff00c8c0;
-}
-
-.nav_list-links a:active {
+.nav_list-links a:hover, .nav_list-links a:active {
   border-bottom: 2px solid #ff00c8c0;
 }
 
@@ -47,10 +51,18 @@ header {
   text-decoration: none;
 }
 
-.navbar-button {
+
+.nav_list-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 167px;
   height: 40px;
   border-radius: 80px;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  gap: 10px;
 }
 
 p {
@@ -58,7 +70,7 @@ p {
 }
 
 main {
-  padding: 100px;
+  margin-bottom: 130px;
 }
 
 .title {
@@ -70,6 +82,8 @@ main {
   line-height: 61.6px;
   color: white;
   align-items: center;
+  padding-top: 48px;
+  gap: 10px;
 }
 
 .title-p {
@@ -115,6 +129,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   padding: 50px 100px;
+  align-items: center
 }
 
 .container-tickets_row {
@@ -163,13 +178,6 @@ h1 {
   display: flex;
 }
 
-img {
-  width: 142px;
-  height: 134px;
-  border-radius: 8px;
-  padding: 20px 0px 20px 20px;
-}
-
 .ticket-text {
   padding: 20px 15px;
 }
@@ -181,19 +189,34 @@ img {
   border-bottom: 1px solid white;
 }
 
+.middle-ticket img {
+  width: 142px;
+  height: 134px;
+  border-radius: 8px;
+  padding: 20px 0px 20px 20px;
+}
 
 .difuminate-pink {
     width: 1000px;
     height: 400px;
     position: absolute;
     left: 600px;
-    bottom: -150px;
+    bottom: 0;
 }
 .difuminate-green {
     width: 800px;
     height: 400px;
     position: absolute;
     left: 700px;
-    bottom: -150px;
+    bottom: 0;
 }
-  
+
+.footer {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+  gap: 40px;
+}

@@ -1,6 +1,7 @@
 body {
     margin: 0;
     box-sizing: 0;
+    background-color: black;
 }
 
 header {
@@ -9,6 +10,8 @@ header {
 
 .navbar {
     margin: 0 100px;
+    color: white;
+    align-items: center;
 }
 
 .nav_list {
@@ -16,6 +19,36 @@ header {
     justify-content: space-between;
     list-style: none;
     padding: 0;
+    align-items: center;
+}
+
+.nav_list-links {
+    margin-left: 85px;    
+}
+
+.nav_list-links a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    font-size: 14px;
+}
+
+.nav_list-links a:hover {
+    border-bottom: 2px solid #ff00c8c0 ;
+}
+
+.nav_list-links a:active {
+    border-bottom: 2px solid #ff00c8c0;
+}
+
+.nav_list-items {
+    text-decoration: none;
+}
+
+.navbar-button {
+    width: 167px;
+    height: 40px;
+    border-radius: 80px;
 }
 
 p {
@@ -30,22 +63,34 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* font-family: Trap;*/
+    font-family: Trap;
     font-size: 56px; 
     line-height: 61.6px;
+    color: white;
+    align-items: center;
 }
 
 .title-p {
     margin: 10px;
-    /* font-family: Work Sans; */
+    font-family: Work Sans;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
+    color: white;
 }
 
 h1 {
     margin: 0;
     text-align: center;
+    font-size: 56px;
+}
+
+.title-button {
+    width: 155px;
+    height: 40px;
+    border-radius: 30px;
+    background-color:  #D7FC6E;
+    ;  
 }
 
 .container-tickets {
@@ -62,10 +107,42 @@ h1 {
     width: 1038px;
     height: 172px;
     display: flex;
+    background-color: transparent;
+}
+
+.border-ticket {
+    width: 50px;
+}
+
+.ticket-left{
+    height: 35%;
+    background-color: rgb(124, 124, 124);
+    border-radius: 10px 0 0 10px ;
+    border-left: 2px solid white;
+}
+
+.ticket-right{
+    height: 35%;
+    background-color: rgb(124, 124, 124);
+    border-radius: 0 10px 10px 0px ;    
+    border-right: 2px solid white;
+}
+
+.cut-ticket-left {
+    height: 30%;
+    border-radius: 0 100px 100px 0;
+    box-shadow: 10px 0 0 10px rgb(124, 124, 124);
+    border-right: 2px solid white;
+}
+
+.cut-ticket-right {
+    height: 30%;
+    border-radius: 100px 0 0 100px;
+    box-shadow: -10px 0 0px 10px rgb(124, 124, 124);
+    border-left: 2px solid white;
 }
 
 .container-tickets_row-ticket {
-    background-color: aqua;
     width: 507px;
     height: 172px;
     display: flex;
@@ -82,3 +159,9 @@ img {
     padding: 20px 15px;
 }
 
+.middle-ticket {
+    background-color: rgb(124, 124, 124);
+    display: flex ;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}

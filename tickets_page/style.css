@@ -1,11 +1,13 @@
 body {
   margin: 0;
   box-sizing: 0;
-  background-color: black;
+  background-image: url(/tickets_page/imagenes/stars.png); 
+  position: relative;
 }
 
 header {
   margin: 0;
+  background-color: #5434a57b;
 }
 
 .navbar {
@@ -179,7 +181,19 @@ img {
   border-bottom: 1px solid white;
 }
 
-.difuminates-images {
-  display: flex;
-  justify-content: end;
+
+.difuminate-pink {
+    width: 1000px;
+    height: 400px;
+    position: absolute;
+    left: 600px;
+    bottom: -150px;
 }
+.difuminate-green {
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    left: 700px;
+    bottom: -150px;
+}
+  

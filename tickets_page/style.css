@@ -142,36 +142,30 @@ h1 {
 
 .border-ticket {
   width: 50px;
+  align-content: center;
 }
 
 .ticket_top-left{
   height: 35%;
   background-color: rgb(124, 124, 124);
-  border-radius: 10px 0 0 4px;
-  border-left: 1px solid white;
   border-top: 1px solid white;
 }
 
 .ticket_top-right {
   height: 35%;
   background-color: rgb(124, 124, 124);
-  border-radius: 0 10px 0 10px;
-  border-right: 1px solid white;
   border-top: 1px solid white;
 }
 
 .ticket_bottom-right {
-  height: 34%;
+  height: 33%;
   background-color: rgb(124, 124, 124);
-  border-radius: 0 10px 10px 0px;
-  border-right: 1px solid white;
   border-bottom: 1px solid white;
 }
 
 .ticket_bottom-left {
-  height: 34%;
+  height: 33%;
   background-color: rgb(124, 124, 124);
-  border-radius: 4px 0 0 10px;
   border-bottom: 1px solid white;
   border-left: 1px solid white;
 }
@@ -182,22 +176,69 @@ h1 {
   border-radius: 0 100px 100px 0;
   box-shadow: 7px 0 0 6px rgb(124, 124, 124);
   border-right: 1px solid white;
-  border-color: white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 .cut-ticket-left::before {
   content: "";
   position: absolute;
-  height: 30%;
-  border-radius: 100px 0 0 100px;
-  box-shadow: 10px 0 0 6px rgb(124, 124, 124);
+  height: 60px;
+  width: 8px;
+  border-radius: 10px 0 0 10px;
+  top: -62px;
+  left: -8px;
+  background-color: rgb(124, 124, 124);
+  border: 1px solid white;
+  border-right: none ;
+}
+
+.cut-ticket-left::after {
+  content: "";
+  position: absolute;
+  height: 57px;
+  width: 8px;
+  border-radius: 10px 0 0 10px;
+  top: 51px;
+  left: -8px;
+  background-color: rgb(124, 124, 124);
+  border: 1px solid white;
+  border-right: none ;
 }
 
 .cut-ticket-right {
+  position: relative;
   height: 30%;
   border-radius: 100px 0 0 100px;
-  box-shadow: -10px 0 0px 10px rgb(124, 124, 124);
-  border: 1px 0 1px 1px  solid white;
+  box-shadow: -7px 0 0px 6px rgb(124, 124, 124);
+  border: 1px solid white;
+  border-right: none;
+}
+
+.cut-ticket-right::before {
+  content: "";
+  position: absolute;
+  height: 60px;
+  width: 8px;
+  border-radius: 0 10px 10px 0;
+  top: -62px;
+  left: 25px;
+  background-color: rgb(124, 124, 124);
+  border: 1px solid white;
+  border-left: none ;
+}
+
+.cut-ticket-right::after {
+  content: "";
+  position: absolute;
+  height: 57px;
+  width: 8px;
+  border-radius: 0 10px 10px 0;
+  top: 51px;
+  left: 25px;
+  background-color: rgb(124, 124, 124);
+  border: 1px solid white;
+  border-left: none ;
 }
 
 .container-tickets_row-ticket {

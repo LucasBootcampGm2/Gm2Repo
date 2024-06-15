@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  box-sizing: border-box;
+  box-sizing:border-box;
   background-image: url(/tickets_page/imagenes/stars.png); 
   position: relative;
   background-color: black;
@@ -144,32 +144,60 @@ h1 {
   width: 50px;
 }
 
-.ticket-left {
+.ticket_top-left{
   height: 35%;
   background-color: rgb(124, 124, 124);
-  border-radius: 10px 0 0 10px;
-  border-left: 2px solid white;
+  border-radius: 10px 0 0 4px;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
 }
 
-.ticket-right {
+.ticket_top-right {
   height: 35%;
   background-color: rgb(124, 124, 124);
+  border-radius: 0 10px 0 10px;
+  border-right: 1px solid white;
+  border-top: 1px solid white;
+}
+
+.ticket_bottom-right {
+  height: 34%;
+  background-color: rgb(124, 124, 124);
   border-radius: 0 10px 10px 0px;
-  border-right: 2px solid white;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.ticket_bottom-left {
+  height: 34%;
+  background-color: rgb(124, 124, 124);
+  border-radius: 4px 0 0 10px;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
 }
 
 .cut-ticket-left {
+  position: relative;
   height: 30%;
   border-radius: 0 100px 100px 0;
-  box-shadow: 10px 0 0 10px rgb(124, 124, 124);
-  border-right: 2px solid white;
+  box-shadow: 7px 0 0 6px rgb(124, 124, 124);
+  border-right: 1px solid white;
+  border-color: white;
+}
+
+.cut-ticket-left::before {
+  content: "";
+  position: absolute;
+  height: 30%;
+  border-radius: 100px 0 0 100px;
+  box-shadow: 10px 0 0 6px rgb(124, 124, 124);
 }
 
 .cut-ticket-right {
   height: 30%;
   border-radius: 100px 0 0 100px;
   box-shadow: -10px 0 0px 10px rgb(124, 124, 124);
-  border-left: 2px solid white;
+  border: 1px 0 1px 1px  solid white;
 }
 
 .container-tickets_row-ticket {

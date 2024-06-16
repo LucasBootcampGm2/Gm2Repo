@@ -248,7 +248,23 @@ h1 {
 }
 
 .ticket-text {
-  padding: 20px 15px;
+  color:white;
+  font-size: 14px;
+  padding: 20px;
+}
+
+.ticket-text-calendar {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  margin: 0 0 5px 0 ;
+  gap: 5px;
+}
+
+.ticket-text-calendar img {
+  height: 16px;
+  width: 16px;
+  margin-bottom: 5px;
 }
 
 .middle-ticket {
@@ -258,7 +274,7 @@ h1 {
   border-bottom: 1px solid white;
 }
 
-.middle-ticket img {
+.concert {
   width: 142px;
   height: 134px;
   border-radius: 8px;

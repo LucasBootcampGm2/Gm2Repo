@@ -30,6 +30,12 @@ header {
 .nav_list-logo {
   display: flex;
   align-items: center;
+  gap: 5px;
+}
+
+.nav_list-logo img {
+  width: 45px;
+  height: 40px;
 }
 
 .nav_list-links {

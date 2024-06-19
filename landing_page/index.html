@@ -27,9 +27,9 @@
                     Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
                 </p>
                 <h6 class="download_app-h6">DOWNLOAD APP NOW</h6>
-                <div>
-                    <button><img src="imgs/appStore.svg" alt="appStore_button"></button>
-                    <button><img src="imgs/googlePlay.svg" alt="googlePlay_button"></button>
+                <div class="download_app-buttons">
+                    <button class="appStore"><img src="imgs/appStore.svg" alt="appStore_button"></button>
+                    <button class="googlePlay_button"><img src="imgs/googlePlay.svg" alt="googlePlay_button"></button>
                 </div>
             </div>
             <div class="section-download_app-img_background">
@@ -166,7 +166,7 @@
         </section>
     </main>
     <footer class="footer">
-        <h4 class="footer-logo">LOGO</h4>
+        <h4 class="footer-h5">LOGO</h4>
         <p class="footer-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.</p>
         <div>
             <img src="" alt="">
@@ -176,22 +176,28 @@
         </div>
         <div>
             <h5 class="footer-h5">QUICK LINK</h5>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#screenshot">Screenshot</a></li>
-                <li><a href="#log">Log</a></li>
+            <ul class="quick_link-list">
+                <li><a class="quick_link-item href="#about">About</a></li>
+                <li><a class="quick_link-item" href="#features">Features</a></li>
+                <li><a class="quick_link-item" href="#screenshot">Screenshot</a></li>
+                <li><a class="quick_link-item" href="#log">Log</a></li>
             </ul>
         </div>
         <div>
             <h5 class="footer-h5">NEWS LETTER</h5>
             <p>
                 Subscribe our newsletter to get our latest update & news
-            </p>
-            <button></button>
+            </p> 
+            <div class="footer-email_button">
+                <input type="text" name="your_email_adress" id="your_email_adress">
+                <button src="" class="footer-email_button-button"><img class="footer-email_button-img" src="imgs/arrow.png" alt="arrow"></button>
+            </div>
         </div>
         <hr>
-        <span></span>
+        <div class="copyright"> 
+            <img src="imgs/copyright.svg" alt="copyright_icon"> 
+            <p class="copyright-p">Copyright 2021 .Ojjomedia. All Right Reserved.</p>
+        </div>
         <div class="info_mail">
             <div>
                 <img src="imgs/email.svg" alt="email_icon">

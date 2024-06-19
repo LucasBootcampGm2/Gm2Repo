@@ -8,7 +8,7 @@ body {
 .header {
     width: 343px;
     height: 60px;
-    margin: 6%;
+    margin: 30px 15px;
     align-content: center;
 }
 
@@ -32,7 +32,7 @@ body {
     align-items: center;
     justify-content: center;
     left: 130px;
-    top: 23px;
+    top: 30px;
     box-shadow: 0 0 1px 0;
     border-radius: 5px;
 }
@@ -62,7 +62,7 @@ body {
     width: 323px;
     height: 318px;
     background-color: white;
-    padding: 20px;
+    margin: 5px;
 } 
 
 .download_app-h5{
@@ -72,6 +72,7 @@ body {
     line-height: 37.5px;
     text-align: left;
     margin: 0;
+    padding: 10px;
 }
 
 .download_app-p {
@@ -79,7 +80,8 @@ body {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-
+    padding: 10px;
+    margin: 0;
 }
 
 .download_app-h6 {
@@ -87,7 +89,28 @@ body {
     font-weight: 600;
     line-height: 30px;
     text-align: left;
+    padding: 10px;
+    margin: 0;
+}
 
+.download_app-buttons {
+    display: flex;
+}
+
+.appStore_button,.appStore_button img {
+    background-size: contain;
+    width: 138px;
+    height: 45px;
+    padding: 0;
+    border: none;
+}
+
+.googlePlay_button {
+    background-size: cover;
+    width: 148px;
+    height: 45px;
+    padding: 0;
+    border: none;
 }
 
 .phone_1 {
@@ -261,6 +284,7 @@ body {
     font-size: 25px;
     font-weight: 600;
     line-height: 37.5px;
+    margin-bottom: 15px;
 }
 
 .info_mail {
@@ -271,7 +295,7 @@ body {
     height: 310px;
     border-radius: 10px;
     color: #232233;
-    top: -97px;
+    top: -155px;
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
@@ -284,4 +308,49 @@ body {
 
 .info_mail-h6 {
     margin: 0;
+}
+
+.quick_link-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quick_link-item {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-email_button {
+    background-color: white;
+    width: 353px;
+    display: flex;
+}
+
+.footer-email_button-button,
+.footer-email_button-img {
+    width: 48px;
+    height: 46px;
+    border-radius: 4px;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 20px;
+}
+
+.copyright-p {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 13px;
+}
+
+.footer hr {
+    margin-top: 50px;
 }

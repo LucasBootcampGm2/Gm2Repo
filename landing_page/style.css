@@ -8,7 +8,7 @@ body {
 .header {
     width: 343px;
     height: 60px;
-    margin: 30px 15px;
+    margin: 30px 23px;
     align-content: center;
 }
 
@@ -23,6 +23,80 @@ body {
     border-radius: 3px
 }
 
+.burger_menu {
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.burger_menu-input {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+    opacity: 0;
+}
+
+.burger_menu-span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 5px; 
+    z-index: 1;
+    position: relative;
+    transform-origin: 0;
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), background 0.5s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.5s ease;
+}
+
+.burger_menu-input:checked {
+    left: 250px;
+}
+
+.burger_menu-input:checked ~ .burger_menu-span {
+    opacity: 1;
+    transform: rotate(45deg);
+    background-color: #232323;
+    left: 250px;   
+}  
+
+.burger_menu-input:checked ~ .burger_menu-span:nth-last-child(3) {
+    opacity: 0;
+}  
+
+.burger_menu-input:checked ~ .burger_menu-span:nth-last-child(2) {
+    transform: rotate(-45deg);
+}  
+
+.burger_menu-list {
+    position: absolute;
+    list-style: none;
+    background-color: white;
+    border-radius: 3px 10px 10px 10px;
+    box-shadow: 0 0 1px 0;
+    text-decoration: none;    
+    padding: 0;
+    width: 267px;
+    height: 356px;
+    padding: 45px 10px;
+    top: -27px;
+    left: -10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    transform: translate(-120%,0);
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0)
+}
+
+.burger_menu_list-links {
+    text-decoration: none;   
+    color: #232233;
+}
+
+.burger_menu-input:checked ~ .burger_menu-list {
+    transform: none;
+}
+
 .container-navbar-logo {
     display: flex;
     position: absolute;
@@ -31,8 +105,8 @@ body {
     background-color: white;
     align-items: center;
     justify-content: center;
-    left: 130px;
-    top: 30px;
+    left: 120px;
+    top: -8px;
     box-shadow: 0 0 1px 0;
     border-radius: 5px;
 }

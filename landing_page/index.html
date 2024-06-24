@@ -12,12 +12,24 @@
 <body>
     <header class="header">
         <nav class="navbar">
-            <img src="imgs/burger_button.svg" alt="menu_button">
+            <div class="burger_menu">
+                <input class="burger_menu-input" type="checkbox" name="burger_menu-input" id="burger_menu-input">
+                <span class="burger_menu-span"></span>
+                <span class="burger_menu-span"></span>
+                <span class="burger_menu-span"></span>
+                <ul class="burger_menu-list">
+                    <li><a class="burger_menu_list-links" href="#home">HOME</a></li>
+                    <li><a class="burger_menu_list-links" href="#about">ABOUT</a></li>
+                    <li><a class="burger_menu_list-links" href="#features">FEATURES</a></li>
+                    <li><a class="burger_menu_list-links" href="#team">TEAM</a></li>
+                    <li><a class="burger_menu_list-links" href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="container-navbar-logo">
+                <img class="navbar-logo" src="imgs/logo.png" alt="logo">
+            </div>
             <button class="navbar-download_button">DOWNLOAD</button>
         </nav>
-        <div class="container-navbar-logo">
-            <img class="navbar-logo" src="imgs/logo.png" alt="logo">
-        </div>
     </header>
     <main>
         <section class="section_download_app">

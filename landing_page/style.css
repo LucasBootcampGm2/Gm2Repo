@@ -287,6 +287,10 @@ body {
     padding: 30px 10px;
 }
 
+.section_features-img_app {
+    width: 100%;
+}
+
 .section_our_reactive_team {
     background-color: white;
     text-align: center;

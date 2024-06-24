@@ -6,7 +6,6 @@ body {
 }
 
 .header {
-    width: 343px;
     height: 60px;
     margin: 30px 23px;
     align-content: center;
@@ -133,7 +132,6 @@ body {
 }
 
 .download_app {
-    width: 323px;
     height: 318px;
     background-color: white;
     margin: 5px;
@@ -190,7 +188,6 @@ body {
 
 .phone_1 {
     height: 521px;
-    margin: 58px;
 }
 
 .section_aboutOurApp {
@@ -366,7 +363,7 @@ body {
     position: absolute;
     text-align: center;
     background-color: white;
-    width: 342.76px;
+    width: 88%;
     height: 310px;
     border-radius: 10px;
     color: #232233;
@@ -401,7 +398,6 @@ body {
 
 .footer-email_button {
     background-color: white;
-    width: 353px;
     display: flex;
 }
 
@@ -427,5 +423,5 @@ body {
 }
 
 .footer hr {
-    margin-top: 50px;
+    margin: 20px 120px;
 }

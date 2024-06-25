@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome/svgs/brands">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
@@ -39,11 +40,16 @@
                     Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
                 </p>
                 <h6 class="download_app-h6">DOWNLOAD APP NOW</h6>
-                <div class="download_app-buttons">
-                    <button class="appStore"><img src="imgs/appStore.svg" alt="appStore_button"></button>
-                    <button class="googlePlay_button"><img src="imgs/googlePlay.svg" alt="googlePlay_button"></button>
+                <div class="download_app_links">
+                    <a class="download_app_links-appStore" href="#appStore">
+                        <img src="imgs/appStore.png" alt="appStore">
+                    </a>
+                    <a class="download_app_links-googlePlay" href="#googlePlay">
+                        <img src="imgs/googlePlay.png" alt="googlePlay">
+                    </a>
                 </div>
             </div>
+            <div class="download_app-sombra"></div>
             <div class="section-download_app-img_background">
                 <img class="phone_1" src="imgs/phone_1.png" alt="phone_1">
             </div>
@@ -189,8 +195,8 @@
     <footer class="footer">
         <h4 class="footer-h5">LOGO</h4>
         <p class="footer-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.</p>
-        <div class="section_our_reactive_team-bottom_logos">
-            <img src="imgs/facebook-fill.svg" alt="faceboock_logo">
+        <div class="footer-bottom_logos">
+            <img src="imgs/facebook-fill.svg" alt="instagram_logo">
             <hr class="bottom_logos-hr">
             <img src="imgs/instagram-fill.svg" alt="instagram_logo">
             <hr class="bottom_logos-hr">
@@ -201,7 +207,7 @@
         <div>
             <h5 class="footer-h5">QUICK LINK</h5>
             <ul class="quick_link-list">
-                <li><a class="quick_link-item href="#about">About</a></li>
+                <li><a class="quick_link-item" href="#about">About</a></li>
                 <li><a class="quick_link-item" href="#features">Features</a></li>
                 <li><a class="quick_link-item" href="#screenshot">Screenshot</a></li>
                 <li><a class="quick_link-item" href="#log">Log</a></li>
@@ -212,9 +218,9 @@
             <p>
                 Subscribe our newsletter to get our latest update & news
             </p> 
-            <div class="footer-email_button">
-                <input type="text" name="your_email_adress" id="your_email_adress">
-                <button src="" class="footer-email_button-button"><img class="footer-email_button-img" src="imgs/arrow.png" alt="arrow"></button>
+            <div class="footer_email">
+                <input class="footer_email-input" type="text" name="your_email_adress" id="your_email_adress" placeholder="Your email adress">
+                <button src="" class="footer_email-button"><img class="footer_email_button-img" src="imgs/arrow.png" alt="arrow"></button>
             </div>
         </div>
         <hr class="footer-hr">

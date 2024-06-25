@@ -7,7 +7,7 @@ body {
 
 .header {
     height: 60px;
-    margin: 30px 23px;
+    margin: 30px 10px;
     align-content: center;
 }
 
@@ -16,8 +16,8 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    height: 43px;
-    padding: 0 10px;
+    height: 40px;
+    padding: 0 3px 0 10px;
     position: relative;
     border-radius: 3px
 }
@@ -26,6 +26,7 @@ body {
     display: block;
     position: relative;
     z-index: 1;
+    top: 2px;
 }
 
 .burger_menu-input {
@@ -105,7 +106,7 @@ body {
     align-items: center;
     justify-content: center;
     left: 120px;
-    top: -8px;
+    top: -10px;
     box-shadow: 0 0 1px 0;
     border-radius: 5px;
 }
@@ -128,17 +129,29 @@ body {
 .section_download_app {
     padding: 40px 15px;
     background-image: url(imgs/background_image.png);
-    background-size: cover;    
+    background-size: cover; 
 }
 
 .download_app {
     background-color: white;
-    margin: 50px 35px 50px 5px;
+    margin:  50px 15px 50px 0;
     display: flex;
     flex-direction: column;
     padding: 15px;
-    box-shadow: 30px -25px teal;
+    position: relative;
+    z-index: 2;
 } 
+
+.download_app-sombra {
+    position: absolute;
+    left: 30px;
+    top: 185px;
+    border: 10px solid white;
+    width: 315px;
+    height: 352px;
+    z-index: 1;
+    opacity: 25%;
+}
 
 .download_app-h5{
     color: #5956E9;
@@ -161,28 +174,22 @@ body {
     font-weight: 600;
     line-height: 30px;
     text-align: left;
-    margin: 0;
-    margin-bottom: 20px;
+    margin: 10px 0;
 }
 
-.download_app-buttons {
+.download_app_links {
     display: flex;
+    gap: 15px;
 }
 
-.appStore_button,.appStore_button img {
-    background-size: contain;
-    width: 138px;
-    height: 45px;
-    padding: 0;
-    border: none;
+.download_app_links-appStore {
+    width: 108px;
+    height: 34px;
 }
 
-.googlePlay_button {
-    background-size: cover;
-    width: 148px;
-    height: 45px;
-    padding: 0;
-    border: none;
+.download_app_links-googlePlay {
+    width: 108px;
+    height: 34px;
 }
 
 .phone_1 {
@@ -246,7 +253,7 @@ body {
 
 .card-h6 {
     margin: 0;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     line-height: 30px;
 }
@@ -399,12 +406,13 @@ body {
     align-content: center;
     box-shadow: 0 -50px 60px 0 gray;
     padding: 40px 8px;
+    width: 86%;
 }
 
 .info_mail-hr {
     width: 100px;
     border: 2px solid;
-    margin: 20px 112px;
+    margin: 20px 98px;
 }
 
 .info_mail-h6 {
@@ -429,23 +437,41 @@ body {
     color: white;
 }
 
-.footer-email_button {
+.footer_email {
     background-color: white;
     display: flex;
+    justify-content: space-between;
+    margin: 40px 0 50px;
 }
 
-.footer-email_button-button,
-.footer-email_button-img {
-    width: 48px;
-    height: 46px;
+.footer_email-button{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    padding: 0;
+    border: 0;
     border-radius: 4px;
+}
+
+.footer_email_button-img {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border-radius: 4px;
+}
+
+.footer_email-input {
+    width: 100%;
+    border: 0;
+    background-color: white;
+    padding-left: 10px;
 }
 
 .copyright {
     display: flex;
     align-items: center;
     gap: 20px;
-    padding: 20px 20px;
+    padding: 0px 5px 15px;;
 }
 
 .copyright-p {
@@ -456,5 +482,14 @@ body {
 }
 
 .footer-hr {
-    margin: 20px 120px;
+    margin: 20px 0;
+}
+
+.footer-bottom_logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logos {
+    fill: white;
 }

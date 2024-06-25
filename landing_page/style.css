@@ -299,8 +299,12 @@ body {
 .section_our_reactive_team {
     background-color: white;
     text-align: center;
-    padding: 100px 25px 300px;
+    padding: 75px 15px 230px;
 
+}
+
+.section_our_reactive_team-container_h5 {
+    padding: 0 10px;
 }
 
 .section_our_reactive_team-h5 {
@@ -311,15 +315,16 @@ body {
 }
 
 .section_our_reactive_team-p {
+    font-family: "Josefin Sans";
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: center;
-    margin: 0;
+    color:gray;
 }
 
 .border-team {
-    margin-top: 80px;
+    margin-top: 35px;
     padding: 17px;
     border-radius: 10px;
     box-shadow: 0px 0px 3px 0px rgb(223, 209, 209);
@@ -385,8 +390,6 @@ body {
     position: absolute;
     text-align: center;
     background-color: white;
-    width: 88%;
-    height: 310px;
     border-radius: 10px;
     color: #232233;
     top: -155px;
@@ -394,14 +397,22 @@ body {
     font-weight: 600;
     line-height: 30px;
     align-content: center;
+    box-shadow: 0 -50px 60px 0 gray;
+    padding: 40px 8px;
 }
 
 .info_mail-hr {
     width: 100px;
+    border: 2px solid;
+    margin: 20px 112px;
 }
 
 .info_mail-h6 {
     margin: 0;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
 }
 
 .quick_link-list {
@@ -444,6 +455,6 @@ body {
     line-height: 13px;
 }
 
-.footer hr {
+.footer-hr {
     margin: 20px 120px;
 }

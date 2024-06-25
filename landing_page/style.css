@@ -142,7 +142,7 @@ body {
     z-index: 2;
 } 
 
-.download_app-sombra {
+.download_app-shadow {
     position: absolute;
     left: 30px;
     top: 185px;
@@ -492,4 +492,96 @@ body {
 
 .logos {
     fill: white;
+}
+
+@media (min-width: 768px) {
+    .header {
+        height: 90;
+        align-content: center;
+        padding: 20px;
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        height: 60px;
+        padding: 0 3px 0 10px;
+        position: relative;
+        border-radius: 3px
+    }
+
+    .container-navbar-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        width: 200px;
+        height: 90px;
+        background-color: white;
+        left: 265px;
+        top: -15px;
+        box-shadow: 0 0 1px 0;
+        border-radius: 5px;
+    }
+
+    .navbar-logo {
+        width: 167px;
+        height: 28px;
+    }
+
+    .navbar-download_button {
+        background-color: #5956E9;
+        color: white;
+        border-radius: 3px;
+        border: 0;
+        width: 158px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .section_download_app {
+        padding: 200px 30px;
+        background-image: url(imgs/background_image.png);
+        background-size: cover;
+        display: flex; 
+        justify-content: space-between;
+    }
+
+    .download_app {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        position: relative;
+        z-index: 2;
+        max-width: 356px;
+    }
+
+    .download_app-shadow {
+        position: absolute;
+        left: 50px;
+        top: 384px;
+        border: 15px solid white;
+        width: 363px;
+        height: 345px;
+        z-index: 1;
+        opacity: 25%;
+    }
+
+    .download_app_links {
+        display: flex;
+        gap: 15px;
+    }
+    
+    .download_app_links-appStore,.download_app_links img {
+        width: 150px;
+        height: 45px;
+    }
+    
+    .download_app_links-googlePlay {
+        width: 150px;
+        height: 45px;
+    }
 }

@@ -270,7 +270,7 @@ body {
 .section_features {
     color: white;
     text-align: center;
-    padding: 80px 35px 0;
+    padding: 80px 35px;
 }
 
 .section_features-h5 {

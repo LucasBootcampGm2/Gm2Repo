@@ -11,6 +11,12 @@ body {
     align-content: center;
 }
 
+.top_bar {
+    visibility: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -509,6 +515,33 @@ body {
         padding: 20px;
     }
     
+    .top_bar {
+        visibility: visible;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 0 20px;  
+    }
+
+    .top_bar-contacts {
+        display: flex;
+        color: white;
+        align-items: center;
+    }
+
+    .top_bar-contacts p {
+        margin: 0;
+    }
+
+    .top_bar-social {
+        display: flex;
+        gap: 30px;
+    }
+
+    .top_bar_contacts-container {
+        display: flex;
+        gap: 20px;
+    }
+
     .navbar {
         display: flex;
         justify-content: space-between;
@@ -799,4 +832,9 @@ body {
     .footer_email {
         margin: 0;
     }
+
 }
+
+
+
+

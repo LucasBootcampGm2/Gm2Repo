@@ -405,25 +405,28 @@ body {
 
 .info_mail {
     position: absolute;
+    left: 7%;
+    top: -155px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
     background-color: white;
     border-radius: 10px;
     color: #232233;
-    top: -155px;
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
-    align-content: center;
     box-shadow: 0 -50px 60px 0 gray;
-    padding: 40px 8px;
+    padding: 30px 8px;
     width: 82%;
-    left: 7%;
+    gap: 15px;
 }
 
 .info_mail-hr {
     width: 100px;
     border: 2px solid;
-    margin: 26px 33%;
 }
 
 .info_mail-h6 {
@@ -711,6 +714,7 @@ body {
     .container-border_team {
         display: flex;
         gap: 30px;
+        justify-content: center;
     }
     
     .border_team {
@@ -742,11 +746,13 @@ body {
 
     .info_mail {
         display: flex;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
         gap: 40px;
-        left: 46px;
+        left: 25%;
         top: -95px;
+        max-width: 688px;
     }
 
     .info_mail img {

@@ -104,7 +104,7 @@ body {
     transform: none;
 }
 
-.container-navbar-logo {
+.container-navbar_logo {
     display: flex;
     position: absolute;
     width: 100px;
@@ -112,15 +112,14 @@ body {
     background-color: white;
     align-items: center;
     justify-content: center;
-    left: 120px;
+    left: 36%;
     top: -10px;
     box-shadow: 0 0 1px 0;
     border-radius: 5px;
 }
 
-.navbar-logo {
-    width: 74px;
-    height: 12px;
+.navbar_logo {
+    width: 79%;
 }
 
 .nav_desktop_links {
@@ -143,6 +142,12 @@ body {
     background-size: cover; 
 }
 
+.container-download_app {
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+}
+
 .download_app {
     background-color: white;
     margin:  50px 15px 50px 0;
@@ -150,7 +155,8 @@ body {
     flex-direction: column;
     padding: 15px;
     position: relative;
-    z-index: 1;
+    z-index: 0;
+    max-width: 356px;
 } 
 
 .download_app-shadow {
@@ -160,7 +166,7 @@ body {
     border: 10px solid white;
     width: 90%;
     height: 106%;
-    z-index: 0;
+    z-index: -1;
     opacity: 25%;
 }
 
@@ -302,7 +308,7 @@ body {
 }
 
 .section_features-img_app {
-    width: 60%;
+    width: 214px;
     margin: 30px 0;
 }
 
@@ -555,7 +561,7 @@ body {
         border-radius: 3px
     }
 
-    .container-navbar-logo {
+    .container-navbar_logo {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -569,10 +575,6 @@ body {
         border-radius: 5px;
     }
 
-    .navbar-logo {
-        width: 167px;
-        height: 28px;
-    }
 
     .burger_menu-list {
         height: 180px;
@@ -590,11 +592,17 @@ body {
     }
 
     .section_download_app {
-        padding: 200px 30px;
+        padding: 80px 30px;
         background-image: url(imgs/background_image.png);
         background-size: cover;
         display: flex; 
-        justify-content: space-between;
+        justify-content: center;
+        gap: 80px;
+    }
+
+    .container-download_app {
+        display: flex;
+        flex-direction: column;
     }
 
     .download_app {
@@ -609,12 +617,11 @@ body {
 
     .download_app-shadow {
         position: absolute;
-        left: 50px;
-        top: 120%;
+        left: 7%;
+        top: -10%;
         border: 15px solid white;
         width: 365px;
         height: 375px;
-        z-index: 1;
         opacity: 25%;
     }
 
@@ -651,7 +658,7 @@ body {
     }
 
     .phone_1 {
-        width: 100%;
+        width: 80%;
         height: 100%;
     }
     
@@ -661,24 +668,31 @@ body {
 
     .aboutOurApp-div {
         display: flex;
+        justify-content: center;
     }
-
-
 
     .column_feature {
         display: flex;
+        justify-content: center;
         margin-top: 40px;
+        gap: 20px;
     }
 
     .column_feature-left {
         text-align: right;
+        display: flex;
+        flex-direction: column;
+        gap: 8%;
     }
 
     .column_feature-right {
         text-align: left;
+        display: flex;
+        flex-direction: column;
+        gap: 6%;
     }
 
-    .column_features p {
+    .column_features-left p {
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
@@ -686,17 +700,12 @@ body {
     }
 
     .column_feature .section_features-h6 {
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 30px;
-        padding: 0;
-        margin: 20px 0;
-        width: 225px;
+        margin: 10px 0 0;
     }
 
     .section_features-img_app {
-        width: 60%;
-        height: 50%;
+        max-width: 375px;
+        margin: 0;
     }
 
     .container-border_team {
@@ -827,7 +836,7 @@ body {
         list-style: none;
         padding: 0;
         margin: 0;
-        margin-bottom: 15px;
+        margin-bottom: 40px;
         display: flex;
         flex-direction: column;
         gap: 10px;
@@ -838,7 +847,7 @@ body {
     }
 
     .footer_email {
-        margin: 0;
+        margin: 20px 0;
     }
 
 }
@@ -853,7 +862,7 @@ body {
         display: none;
     }
 
-    .container-navbar-logo {
+    .container-navbar_logo {
         left: 41%;
     }
     .nav_desktop_links {
@@ -880,10 +889,12 @@ body {
     .section_download_app {
         margin: 50px 140px;
         padding: 50px 80px 0 0;
+        display: flex;
+        justify-content: center;
     }
 
     .download_app {
-        width: 60%;
+        max-width: 560px;
     }
 
     .download_app-h5 {

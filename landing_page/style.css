@@ -6,7 +6,6 @@ body {
 }
 
 .header {
-    height: 60px;
     margin: 30px 10px;
     align-content: center;
 }
@@ -124,6 +123,10 @@ body {
     height: 12px;
 }
 
+.nav_desktop_links {
+    display: none;
+}
+
 .navbar-download_button {
     background-color: #5956E9;
     color: white;
@@ -153,12 +156,12 @@ body {
 .download_app-shadow {
     position: absolute;
     left: 30px;
-    top: 187px;
+    top: 45%;
     border: 10px solid white;
     width: 84%;
-    height: 48%;
+    height: 90%;
     z-index: 0;
-    opacity: 25%;    
+    opacity: 25%;
 }
 
 .download_app-h5{
@@ -188,16 +191,6 @@ body {
 .download_app_links {
     display: flex;
     gap: 15px;
-}
-
-.download_app_links-appStore {
-    width: 108px;
-    height: 34px;
-}
-
-.download_app_links-googlePlay {
-    width: 108px;
-    height: 34px;
 }
 
 .phone_1 {
@@ -512,7 +505,6 @@ body {
 
 @media (min-width: 768px) {
     .header {
-        height: 90;
         align-content: center;
         padding: 20px;
     }
@@ -556,7 +548,7 @@ body {
         align-items: center;
         background-color: white;
         height: 60px;
-        padding: 0 5px 0 10px;
+        padding: 0 5px 0 15px;
         position: relative;
         border-radius: 3px
     }
@@ -610,18 +602,16 @@ body {
         padding: 15px;
         position: relative;
         z-index: 2;
-        max-width: 356px;
-        height: 318px;
         margin: 50px 0;
     }
 
     .download_app-shadow {
         position: absolute;
         left: 50px;
-        top: 380px;
+        top: 120%;
         border: 15px solid white;
-        width: 370px;
-        height: 380px;
+        width: 365px;
+        height: 375px;
         z-index: 1;
         opacity: 25%;
     }
@@ -851,8 +841,74 @@ body {
 
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 1440px) {
 
+    .header {
+        padding: 0 130px;
+    }
+
+    .burger_menu {
+        display: none;
+    }
+
+    .container-navbar-logo {
+        left: 41%;
+    }
+    .nav_desktop_links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+        padding: 5px 10px 0 ;
+    }
+
+    .nav_desktop_links a {
+        text-decoration: none;
+        color: black;
+        display: flex;
+    }
+
+    .nav_desktop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .section_download_app {
+        margin: 50px 140px;
+        padding: 50px 80px 0 0;
+    }
+
+    .download_app {
+        width: 60%;
+    }
+
+    .download_app-h5 {
+        font-size: 48.83px;
+        font-weight: 700;
+        line-height: 63.48px;
+        text-align: left;
+
+    }
+
+    .download_app-p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    .download_app-h6 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 37.5px;
+        text-align: left;
+
+    }
+
+    .download_app_links img {
+        width: 149px;
+        height: 47px;
+    }
 }
-
-

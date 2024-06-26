@@ -541,6 +541,7 @@ body {
         display: flex;
         gap: 30px;
         align-items: center;  
+        color: white;
     }
 
     .top_bar-social img{

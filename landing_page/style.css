@@ -12,9 +12,7 @@ body {
 }
 
 .top_bar {
-    visibility: hidden;
-    display: flex;
-    justify-content: space-between;
+    display: none;
 }
 
 .navbar {
@@ -52,7 +50,7 @@ body {
     z-index: 1;
     position: relative;
     transform-origin: 0;
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), background 0.5s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.5s ease;
+    transition: transform .5s cubic-bezier(0.77,0.2,0.05,1.0), background 0.5s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.5s ease;
 }
 
 .burger_menu-input:checked {
@@ -91,7 +89,11 @@ body {
     flex-direction: column;
     gap: 30px;
     transform: translate(-120%,0);
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0)
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    /*  0.77) cuán rápido empieza el movimiento
+    (0.2) controla la velocidad a medida que avanza
+    (0.05) controla cuándo se empieza a desacelerar
+    (1.0) indica cuán suavemente termina el movimiento. */
 }
 
 .burger_menu_list-links {
@@ -145,18 +147,18 @@ body {
     flex-direction: column;
     padding: 15px;
     position: relative;
-    z-index: 2;
+    z-index: 1;
 } 
 
 .download_app-shadow {
     position: absolute;
     left: 30px;
-    top: 185px;
+    top: 187px;
     border: 10px solid white;
-    width: 315px;
-    height: 352px;
-    z-index: 1;
-    opacity: 25%;
+    width: 84%;
+    height: 48%;
+    z-index: 0;
+    opacity: 25%;    
 }
 
 .download_app-h5{
@@ -535,11 +537,17 @@ body {
     .top_bar-social {
         display: flex;
         gap: 30px;
+        align-items: center;  
+    }
+
+    .top_bar-social img{
+        width: 18px;
+        height: 18px;
     }
 
     .top_bar_contacts-container {
         display: flex;
-        gap: 20px;
+        align-items: center;  
     }
 
     .navbar {
@@ -548,7 +556,7 @@ body {
         align-items: center;
         background-color: white;
         height: 60px;
-        padding: 0 3px 0 10px;
+        padding: 0 5px 0 10px;
         position: relative;
         border-radius: 3px
     }
@@ -571,6 +579,11 @@ body {
         width: 167px;
         height: 28px;
     }
+
+    .burger_menu-list {
+        height: 180px;
+        top: -37px;    
+    }   
 
     .navbar-download_button {
         background-color: #5956E9;
@@ -633,13 +646,16 @@ body {
         font-weight: 700;
         line-height: 47.25px;
     }
+
+    .download_app-h6{
+        margin: 32px 0;
+    }
     
     .download_app-p {
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
-        width: 243px;
-        height: 23px;
+        margin: 0;
     }
 
     .phone_1 {
@@ -835,6 +851,8 @@ body {
 
 }
 
+@media only screen and (min-width: 768px) {
 
+}
 
 

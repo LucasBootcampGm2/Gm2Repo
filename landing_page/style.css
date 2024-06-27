@@ -22,7 +22,7 @@ body {
     height: 40px;
     padding: 0 3px 0 10px;
     position: relative;
-    border-radius: 3px
+    border-radius: 3px;
 }
 
 .burger_menu {
@@ -52,15 +52,10 @@ body {
     transition: transform .5s cubic-bezier(0.77,0.2,0.05,1.0), background 0.5s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.5s ease;
 }
 
-.burger_menu-input:checked {
-    left: 250px;
-}
-
 .burger_menu-input:checked ~ .burger_menu-span {
     opacity: 1;
     transform: rotate(45deg);
     background-color: #232323;
-    left: 250px;   
 }  
 
 .burger_menu-input:checked ~ .burger_menu-span:nth-last-child(3) {
@@ -107,12 +102,12 @@ body {
 .container-navbar_logo {
     display: flex;
     position: absolute;
-    width: 100px;
+    width: 28%;
     height: 60px;
     background-color: white;
     align-items: center;
     justify-content: center;
-    left: 36%;
+    left: 35%;
     top: -10px;
     box-shadow: 0 0 1px 0;
     border-radius: 5px;
@@ -405,23 +400,20 @@ body {
 
 .info_mail {
     position: absolute;
-    left: 7%;
-    top: -155px;
-    text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    align-items: center;
+    text-align: center;
     background-color: white;
     border-radius: 10px;
     color: #232233;
     font-size: 20px;
-    font-weight: 600;
-    line-height: 30px;
     box-shadow: 0 -50px 60px 0 gray;
     padding: 30px 8px;
-    width: 82%;
     gap: 15px;
+    left: 50%;
+    transform: translate(-50%, -120%);
+    width: 88%;
 }
 
 .info_mail-hr {
@@ -746,14 +738,12 @@ body {
     }
 
     .info_mail {
-        display: flex;
         flex-direction: row;
-        align-items: center;
         justify-content: center;
         gap: 40px;
-        left: 8%;
-        top: -95px;
-        width: 82%;
+        left: 50%;
+        transform: translate(-50%, -110%);
+        max-width: 688px;
     }
 
     .info_mail img {

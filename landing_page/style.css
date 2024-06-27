@@ -214,6 +214,12 @@ body {
     text-align: center;
 }
 
+.aboutOurApp-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .aboutOurApp-h5 {
     font-size: 25px;
     font-weight: 600;
@@ -411,7 +417,7 @@ body {
     border-radius: 10px;
     color: #232233;
     font-size: 20px;
-    box-shadow: 0 10px 20px #00000020;
+    box-shadow: 0 0 100px 0 gray;
     padding: 30px 8px;
     gap: 15px;
     left: 50%;
@@ -840,6 +846,17 @@ body {
         margin: 20px 0;
     }
 
+    .card {
+        padding: 3% 0 3% 3%;
+    }
+
+    .aboutOurApp-div {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        padding: 0 10px;
+        flex-direction: row;
+    }
 }
 
 @media (min-width: 1440px) {

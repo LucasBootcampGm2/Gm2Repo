@@ -193,7 +193,7 @@ body {
 }
 
 .phone_1 {
-    width: 80%;
+    width: 243px;
 }
 
 .section-download_app-img_background {
@@ -207,7 +207,7 @@ body {
 .section_aboutOurApp {
     background-color: white;
     justify-content: center;
-    padding: 80px 15px;
+    padding: 80px 5%;
 }
 
 .aboutOurApp {
@@ -257,6 +257,7 @@ body {
     box-shadow: 0 10px 20px #00000020;
     border-radius: 10px;
     padding: 5% 0 5% 5%;
+    margin: 0 10%;
 }
 
 .card-text {
@@ -342,11 +343,19 @@ body {
     color:gray;
 }
 
+.container-border_team {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .border_team {
     margin-top: 35px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 10px 20px #00000020;
+    max-width: 343px;
 }
 
 .border_team-img {
@@ -413,6 +422,7 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-content: left;
     background-color: white;
     border-radius: 10px;
     color: #232233;
@@ -423,6 +433,7 @@ body {
     left: 50%;
     transform: translate(-50%, -120%);
     width: 88%;
+    max-width: 343px;
 }
 
 .info_mail-hr {
@@ -576,7 +587,6 @@ body {
     }
 
     .burger_menu-list {
-        height: 180px;
         top: -37px;    
     }   
 
@@ -591,10 +601,9 @@ body {
     }
 
     .section_download_app {
-        padding: 80px 30px;
         background-image: url(imgs/background_image.png);
         background-size: cover;
-        display: flex; 
+        display: flex;
         justify-content: center;
         gap: 80px;
     }
@@ -656,19 +665,14 @@ body {
         margin: 0;
     }
 
-    .phone_1 {
-        width: 80%;
-        height: 100%;
-    }
-    
-
     .aboutOurApp {
         margin: 0 200px 50px;
     }
 
     .aboutOurApp-div {
-        display: flex;
         justify-content: center;
+        flex-direction: row;
+        gap: 30px;
     }
 
     .column_feature {
@@ -709,15 +713,13 @@ body {
     }
 
     .container-border_team {
-        display: flex;
+        flex-direction: row;
         gap: 30px;
         justify-content: center;
     }
     
     .border_team {
-        margin-top: 35px;
-        border-radius: 10px;
-        box-shadow: 0 10px 20px #00000020;
+        max-width: 370px;
     }
     
     .border_team-img {
@@ -742,11 +744,12 @@ body {
 
     .info_mail {
         flex-direction: row;
-        justify-content: center;
+        justify-content: left;
         gap: 40px;
         left: 50%;
         transform: translate(-50%, -110%);
         max-width: 688px;
+        padding: 30px 20px;
     }
 
     .info_mail img {
@@ -759,6 +762,7 @@ body {
         text-transform: lowercase;
         align-items: center;
         gap: 10px;
+        flex: 1;
     }
 
     .info_mail-h6 {
@@ -778,8 +782,9 @@ body {
     .info_mail-call {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        gap: 10px;  
+        justify-content: left;
+        gap: 10px;
+        flex: 1;
     }
 
     .display_footer {
@@ -852,14 +857,18 @@ body {
 
     .card {
         padding: 3% 0 3% 3%;
+        margin: 0;
     }
 
-    .aboutOurApp-div {
+
+    .container-phone_2 {
+        width: 30%;
         display: flex;
         justify-content: center;
-        gap: 30px;
-        padding: 0 10px;
-        flex-direction: row;
+    }
+
+    .container-cards {
+        width: 50%;
     }
 }
 

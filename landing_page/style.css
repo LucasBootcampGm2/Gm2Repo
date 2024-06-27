@@ -515,6 +515,10 @@ body {
     fill: white;
 }
 
+.icon:focus {
+    color: #5956E9;
+}
+
 @media (min-width: 768px) {
     .header {
         align-content: center;

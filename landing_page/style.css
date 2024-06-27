@@ -74,7 +74,7 @@ body {
     list-style: none;
     background-color: white;
     border-radius: 3px 10px 10px 10px;
-    box-shadow: 0 0 1px 0;
+    box-shadow: 0 10px 20px #00000020;
     text-decoration: none;
     padding: 70px 100px 20px 20px;
     top: -135%;
@@ -106,7 +106,7 @@ body {
     align-items: center;
     justify-content: center;
     left: 50%;
-    box-shadow: 0 0 1px 0;
+    box-shadow: 0 10px 20px #00000020;
     border-radius: 5px;
     transform: translate(-50%, 0);
 }
@@ -234,6 +234,11 @@ body {
     margin: 20px;
 }
 
+.phone_2 {
+    width: 238px;
+    height: 359px;
+}
+
 .container-cards {
     display: flex;
     flex-direction: column;
@@ -243,9 +248,9 @@ body {
 
 .card {
     display: flex;
-    border: 1px solid whitesmoke;
+    box-shadow: 0 10px 20px #00000020;
     border-radius: 10px;
-    padding: 15px;
+    padding: 5% 0 5% 5%;
 }
 
 .card-text {
@@ -261,11 +266,10 @@ body {
 
 .card-p {
     margin: 0;
-    font-family: Josefin Sans;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 400;
-    line-height: 24px;
-    color: #6C6C72;    
+    line-height: 15px;
+    color: #6C6C72;
 }
 
 .section_features {
@@ -334,14 +338,15 @@ body {
 
 .border_team {
     margin-top: 35px;
-    padding: 16px;
+    padding: 10px;
     border-radius: 10px;
-    box-shadow: 0px 0px 3px 0px rgb(223, 209, 209);
+    box-shadow: 0 10px 20px #00000020;
 }
 
 .border_team-img {
     border: 4px dashed #5956E9;
     border-radius: 100px;
+    
 }
 
 .section_our_reactive_team-h4 {
@@ -406,7 +411,7 @@ body {
     border-radius: 10px;
     color: #232233;
     font-size: 20px;
-    box-shadow: 0 -50px 60px 0 gray;
+    box-shadow: 0 10px 20px #00000020;
     padding: 30px 8px;
     gap: 15px;
     left: 50%;
@@ -646,6 +651,7 @@ body {
         height: 100%;
     }
     
+
     .aboutOurApp {
         margin: 0 200px 50px;
     }
@@ -700,14 +706,13 @@ body {
     
     .border_team {
         margin-top: 35px;
-        padding: 16px;
         border-radius: 10px;
-        box-shadow: 0px 0px 3px 0px rgb(223, 209, 209);
-        width: 213px;
+        box-shadow: 0 10px 20px #00000020;
     }
     
     .border_team-img {
         width: 120px;
+        margin: 0;
     }
 
     .section_our_reactive_team-h4 {
@@ -852,13 +857,14 @@ body {
         justify-content: space-between;
         align-items: center;
         gap: 50px;
-        padding: 5px 10px 0 ;
+        padding: 5px 20px 0 ;
     }
 
     .nav_desktop_links a {
         text-decoration: none;
         color: black;
         display: flex;
+        font-size: 20px;
     }
 
     .nav_desktop {
@@ -869,10 +875,15 @@ body {
     }
 
     .section_download_app {
-        margin: 50px 140px;
-        padding: 50px 80px 0 0;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        padding: 150px;
+    }
+
+
+    .section-download_app-img_background {
+        margin: 0;
+        width: 30%;
     }
 
     .download_app {
@@ -910,5 +921,53 @@ body {
     .download_app_links img {
         width: 149px;
         height: 47px;
+    }
+
+    .phone_1 {
+        width: 100%;
+    }
+
+    .container-border_team {
+        padding: 0 100px;
+    }
+
+    .border_team-img {
+        width: 198px;
+    }
+
+    .section_our_reactive_team-h4 {
+        font-size: 31px;
+        margin: 70px 0 10px 0;
+
+    }
+
+    .section_our_reactive_team-h6 {
+        font-size: 20px;
+    }
+
+    .section_our_reactive_team-p {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .bottom_logos {
+        margin: 30px 50px;
+    }
+
+    .phone_2 {
+        width: 386px;
+        height: 526px;
+    }
+
+    .aboutOurApp-div {
+        padding: 0 150px;
+        gap: 220px;
+    }
+
+    .card-p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
     }
 }

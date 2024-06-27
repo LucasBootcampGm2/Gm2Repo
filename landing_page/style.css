@@ -570,7 +570,7 @@ body {
         align-items: center;
         justify-content: center;
         position: absolute;
-        width: 200px;
+        width: 28%;
         height: 90px;
         background-color: white;
         left: 36%;
@@ -751,9 +751,9 @@ body {
         align-items: center;
         justify-content: center;
         gap: 40px;
-        left: 25%;
+        left: 8%;
         top: -95px;
-        max-width: 688px;
+        width: 82%;
     }
 
     .info_mail img {
@@ -871,6 +871,7 @@ body {
 
     .container-navbar_logo {
         left: 41%;
+        width: 18%;
     }
     .nav_desktop_links {
         display: flex;
@@ -902,6 +903,11 @@ body {
 
     .download_app {
         max-width: 560px;
+    }
+
+    .download_app-shadow {
+        height: 395px;
+        width: 95%;
     }
 
     .download_app-h5 {

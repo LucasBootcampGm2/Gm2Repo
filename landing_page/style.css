@@ -40,6 +40,7 @@ body {
     opacity: 0;
 }
 
+
 .burger_menu-span {
     display: block;
     width: 20px;
@@ -67,23 +68,20 @@ body {
 }  
 
 .burger_menu-list {
+    transform: translate(-120%, 0);
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
     position: absolute;
     list-style: none;
     background-color: white;
     border-radius: 3px 10px 10px 10px;
     box-shadow: 0 0 1px 0;
-    text-decoration: none;    
-    padding: 0;
-    width: 267px;
-    height: 356px;
-    padding: 45px 10px;
+    text-decoration: none;
+    padding: 70px 100px 20px 20px;
     top: -27px;
     left: -10px;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    transform: translate(-120%,0);
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
     /*  0.77) cuán rápido empieza el movimiento
     (0.2) controla la velocidad a medida que avanza
     (0.05) controla cuándo se empieza a desacelerar
@@ -102,15 +100,15 @@ body {
 .container-navbar_logo {
     display: flex;
     position: absolute;
-    width: 28%;
+    width: 100px;
     height: 60px;
     background-color: white;
     align-items: center;
     justify-content: center;
-    left: 35%;
-    top: -10px;
+    left: 50%;
     box-shadow: 0 0 1px 0;
     border-radius: 5px;
+    transform: translate(-50%, 0);
 }
 
 .navbar_logo {
@@ -558,19 +556,9 @@ body {
     }
 
     .container-navbar_logo {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        width: 28%;
+        width: 200px;
         height: 90px;
-        background-color: white;
-        left: 36%;
-        top: -15px;
-        box-shadow: 0 0 1px 0;
-        border-radius: 5px;
     }
-
 
     .burger_menu-list {
         height: 180px;
@@ -859,10 +847,6 @@ body {
         display: none;
     }
 
-    .container-navbar_logo {
-        left: 41%;
-        width: 18%;
-    }
     .nav_desktop_links {
         display: flex;
         justify-content: space-between;

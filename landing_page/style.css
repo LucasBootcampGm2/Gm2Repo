@@ -117,7 +117,7 @@ body {
 }
 
 .navbar_logo {
-    width: 79%;
+    width: 80%;
 }
 
 .nav_desktop {
@@ -780,7 +780,7 @@ body {
         display: flex;
         justify-content: center;
         gap: 80px;
-        padding: 40% 0 15%;
+        padding: 200px 0 15%;
     }
 
     .container-download_app {
@@ -1133,6 +1133,7 @@ body {
 
     .phone_1 {
         width: 100%;
+        max-width: 313px;
     }
 
     .container-border_team {

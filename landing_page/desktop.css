@@ -1,0 +1,155 @@
+@media (min-width: 1440px) {
+
+    .header {
+        padding: 10px 0;
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar {
+        width: 80%;
+    }
+
+    .top_bar {
+        width: 80%;
+    }
+
+    .burger_menu {
+        display: none;
+    }
+
+    .nav_desktop_links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+        padding: 5px 20px 0 ;
+    }
+
+    .nav_desktop_links a {
+        text-decoration: none;
+        color: black;
+        display: flex;
+        font-size: 20px;
+    }
+
+    .nav_desktop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .section-download_app {
+        display: flex;
+        padding: 300px 220px 200px 130px;    
+    }
+
+    .section-download_app-img_background:before {
+        bottom: 110px;
+        width: 90%;
+        right: -28%;
+    }
+
+    .section-download_app-img_background {
+        margin: 0;
+        width: 30%;
+    }
+
+    .download_app {
+        width: 560px;
+        max-width: 560px;
+    }
+
+    .download_app-shadow {
+        height: 400px;
+        width: 95%;
+        top: -10%;
+    }
+
+    .download_app-h5 {
+        font-size: 48.83px;
+        font-weight: 700;
+        line-height: 63.48px;
+        text-align: left;
+        width: 517px;
+    }
+
+    .download_app-p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        width: 487px;
+        margin-top: 5px;
+    }
+
+    .download_app-h6 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 37.5px;
+        text-align: left;
+
+    }
+
+    .download_app-links img {
+        width: 149px;
+        height: 47px;
+    }
+
+    .phone_1 {
+        width: 95%;
+        max-width: 313px;
+    }
+
+    .container-border_team {
+        padding: 0 100px;
+    }
+
+    .section_our_reactive_team-h4 {
+        font-size: 31px;
+        margin: 70px 0 10px 0;
+
+    }
+
+    .section_our_reactive_team-h6 {
+        font-size: 20px;
+    }
+
+    .section_our_reactive_team-p {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .bottom_logos {
+        margin: 30px 50px;
+        gap: 40px;
+    }
+
+    .phone_2 {
+        width: 386px;
+        height: 526px;
+    }
+
+    .aboutOurApp-div {
+        padding: 0 150px;
+        gap: 220px;
+    }
+
+    .card-p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    .border_team {
+        max-width: 370px;
+    }
+
+    .footer {
+        padding: 100px 10% 0;
+    }
+}

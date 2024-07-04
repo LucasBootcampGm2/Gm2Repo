@@ -75,11 +75,11 @@
                     </p>
                     <h6 class="download_app-h6">DOWNLOAD APP NOW</h6>
                     <div class="download_app-links">
-                        <a class="download_app-links_appStore" href="#appStore">
-                            <img src="images/appStore.png" alt="appStore">
-                        </a>
                         <a class="download_app-links_googlePlay" href="#googlePlay">
                             <img src="images/googlePlay.png" alt="googlePlay">
+                        </a>
+                        <a class="download_app-links_appStore" href="#appStore">
+                            <img src="images/appStore.png" alt="appStore">
                         </a>
                     </div>
                     <div class="download_app-shadow"></div>
@@ -102,7 +102,7 @@
                 </div>
                 <div class="container-cards">
                     <div class="card">
-                        <div>
+                        <div class="circle-check">
                             <i class="fa-solid fa-circle-check"></i>
                         </div>
                         <div class="card-text">
@@ -111,7 +111,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div>
+                        <div class="circle-check">
                             <i class="fa-solid fa-circle-check"></i>
                         </div>
                         <div class="card-text">
@@ -120,7 +120,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div>
+                        <div class="circle-check">
                             <i class="fa-solid fa-circle-check"></i>
                         </div>
                         <div class="card-text">
@@ -137,7 +137,7 @@
             <div class="feature">
                 <img src="images/comment.svg" alt="comment-icon">
                 <h6 class="section_features-h6">FULL FREE CHAT</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="feature-p-top">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
 
             <div class="column_feature">
@@ -145,12 +145,12 @@
                     <div class="feature">
                         <img src="images/browser.svg" alt="browser-icon">
                         <h6 class="section_features-h6">UNLIMITED FEATURES</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p class="feature-p-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                     <div class="feature">
                         <img src="images/vector.svg" alt="vector-icon">
                         <h6 class="section_features-h6">AWSOME UI DESIGN</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p class="feature-p-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
 
@@ -160,19 +160,19 @@
                     <div class="feature">
                         <img src="images/cell-phone.svg" alt="cell-phone-icon">
                         <h6 class="section_features-h6">ISO & ANDROID VERSION</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p class="feature-p-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                     <div class="feature">
                         <img src="images/eye-scanner.svg" alt="eye-scanner">
                         <h6 class="section_features-h6">RETINA READY GRAPHICS</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p class="feature-p-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
             </div>
             <div class="feature">
                 <img src="images/male-telemarketer.svg" alt="male-telemarketer-icon">
                 <h6 class="section_features-h6">24/7 SUPPORT BY REAL PEOPLE</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="feature-p-down">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
             
         </section>
@@ -250,22 +250,11 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="info_mail">
-            <div class="info_mail-contacts">
-                <i class="fa fa-envelope "></i>
-                <h6 class="info_mail-h6">INFO.DESIGN@GMAIL.COM</h6>
-            </div>
-            <hr class="info_mail-hr">
-            <div class="info_mail-contacts">
-                <i class="fa-solid fa-phone "></i>
-                <h6 class="info_mail-h6">+880 321 655 9985</h6>
-            </div>
-        </div>
         <div class="display_footer">
             <div class="display_footer_div">
                 <h4 class="footer-h4">LOGO</h4>
                 <p class="footer-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.</p>
-                <div class="bottom_logos">
+                <div class="footer-bottom_logos">
                     <i class="icon fab fa-facebook-f"></i>
                     <hr class="bottom_logos-hr">
                     <i class="icon fab fa-instagram"></i>
@@ -275,27 +264,32 @@
                     <i class="icon fab fa-youtube"></i>
                 </div>
             </div>
-            <div class="display_footer_div_quick">
-                <h5 class="footer-h5">QUICK LINK</h5>
-                <ul class="quick_link-list">
-                    <li><a class="quick_link-item" href="#about">About</a></li>
-                    <li><a class="quick_link-item" href="#features">Features</a></li>
-                    <li><a class="quick_link-item" href="#screenshot">Screenshot</a></li>
-                    <li><a class="quick_link-item" href="#log">Log</a></li>
-                </ul>
-            </div>
-            <div class="display_footer_div">
-                <h5 class="footer-h5">NEWS LETTER</h5>
-                <p class="footer-p">
-                    Subscribe our newsletter to get our latest update & news
-                </p> 
-                <div class="footer_email">
-                    <input class="footer_email-input" type="text" name="your_email_adress" id="your_email_adress" placeholder="Your email adress">
-                    <button class="footer_email-button">
-                        <i class="fa-solid fa-paper-plane"></i>
-                    </button>
+
+            <div class="footer-container">
+                <div class="display_footer_div_quick">
+                    <h5 class="footer-h5">QUICK LINK</h5>
+                    <ul class="quick_link-list">
+                        <li><a class="quick_link-item" href="#about">About</a></li>
+                        <li><a class="quick_link-item" href="#features">Features</a></li>
+                        <li><a class="quick_link-item" href="#screenshot">Screenshot</a></li>
+                        <li><a class="quick_link-item" href="#blog">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="display_footer_div">
+                    <h5 class="footer-h5">NEWS LETTER</h5>
+                    <p class="footer-p">
+                        Subscribe our newsletter to get our latest update & news
+                    </p> 
+                    <div class="footer_email">
+                        <input class="footer_email-input" type="text" name="your_email_adress" id="your_email_adress" placeholder="Your email adress">
+                        <button class="footer_email-button">
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
+
+            
         </div>
         <hr class="footer-hr">
         <div class="copyright"> 
@@ -303,5 +297,16 @@
             <p class="copyright-p">Copyright 2021 .Ojjomedia. All Right Reserved.</p>
         </div>
     </footer>
+    <div class="info_mail">
+        <div class="info_mail-contacts">
+            <i class="fa fa-envelope "></i>
+            <h6 class="info_mail-h6">INFO.DESIGN@GMAIL.COM</h6>
+        </div>
+        <hr class="info_mail-hr">
+        <div class="info_mail-contacts">
+            <i class="fa-solid fa-phone "></i>
+            <h6 class="info_mail-h6">+880 321 655 9985</h6>
+        </div>
+    </div>
 </body>
 </html>

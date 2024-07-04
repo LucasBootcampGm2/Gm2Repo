@@ -1,17 +1,16 @@
 
 @media (min-width: 768px) {
     .header {
-        align-content: center;
         position: absolute;
-        width: 92%;
-        padding: 0px 30px 10px;
+        width: 90%;  
+        padding: 0;
+        left: 5%;  
     }
     
     .top_bar {
-        visibility: visible;
         display: flex;
         justify-content: space-between;
-        padding: 0 5px 20px;
+        padding: 0 0 20px;
     }
 
     .top_bar-contacts {
@@ -20,6 +19,10 @@
         align-items: center;
         gap: 30px;
     }
+
+    .top_bar-contacts .fa {
+        padding-left: 0;
+    } 
 
     .top_bar-contacts p {
         margin: 0;
@@ -30,7 +33,6 @@
         gap: 30px;
         align-items: center;  
         color: white;
-        padding: 10px;
     }
 
     .top_bar-social img{
@@ -45,13 +47,8 @@
 
     .navbar {
         position: relative;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: white;
         height: 60px;
         padding: 0 5px 0 15px;
-        border-radius: 3px;
         left: 0;
         right: 0;
     }
@@ -73,7 +70,6 @@
         background-color: #5956E9;
         color: white;
         border-radius: 3px;
-        border: 0;
         width: 158px;
         height: 50px;
         font-size: 20px;
@@ -103,36 +99,15 @@
         box-shadow: 150px 0 5px 3px #00000087;
     }
 
-    .download_app {
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        padding: 15px;
-        position: relative;
-        z-index: 2;
-        margin: 50px 0;
-    }
-
     .download_app-shadow {
-        position: absolute;
         left: 7%;
         top: -9%;
         border: 15px solid white;
         width: 336px;
         height: 365px;
-        opacity: 25%;
-    }
-
-    .download_app-links {
-        display: flex;
-        gap: 15px;
     }
     
-    .download_app-links_appStore img,.download_app_links_googlePlay img {
-        width: 150px;
-    }
-    
-    .download_app-links_googlePlay, .download_app-links_appStore {
+    .download_app-links_googlePlay, .download_app-links_appStore,.download_app-links_appStore img,.download_app-links_googlePlay img {
         width: 150px;
         height: 44px;
     }
@@ -140,36 +115,38 @@
     .download_app-h5{
         font-size: 31px;
         font-weight: 700;
-        line-height: 47.25px;
+        line-height: 47px;
         width: 330px;
     }
 
     .download_app-h6{
-        margin: 32px 0;
+        margin: 25px 0;
     }
     
     .download_app-p {
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
-        margin: 0;
+        margin: 15px 0;
         width: 330px;
     }
 
     .aboutOurApp {
-        margin: 0 200px 50px;
+        padding: 0 200px 50px;
     }
 
     .aboutOurApp-div {
-        justify-content: center;
         flex-direction: row;
-        gap: 30px;
+    }
+
+    .feature {
+        padding: 10px;
     }
 
     .column_feature {
         display: flex;
         justify-content: center;
-        margin-top: 40px;
+        margin-top: 20px;
         gap: 20px;
     }
 
@@ -180,11 +157,19 @@
         gap: 8%;
     }
 
+    .feature-p-left {
+        padding: 0 0 0 2%;
+    }
+
     .column_feature-right {
         text-align: left;
         display: flex;
         flex-direction: column;
         gap: 6%;
+    }
+
+    .feature-p-right {
+        padding: 0 2% 0 0;
     }
 
     .column_features-left p {
@@ -194,35 +179,37 @@
         text-align: right;
     }
 
-    .column_feature .section_features-h6 {
-        margin: 10px 0 0;
+    .column_feature-left .section_features-h6 {
+        margin: 25px 0 0 0;
+    }
+
+    .column_feature-right .section_features-h6 {
+        margin: 25px 0 0 0;
     }
 
     .section_features-img_app {
         max-width: 375px;
-        margin: 0;
+        margin: 0 0 50px 0;
         box-shadow: 45px 45px 100px 0 #0000008a
     }
 
     .container-border_team {
         flex-direction: row;
-        gap: 15px;
+        gap: 2%;
+        width: 96%;
         justify-content: center;
     }
-    
-    .border_team {
-        max-width: 215px;
-    }
-    
-    .border_team-img {
-        margin: 0;
+
+    .section_our_reactive_team-container_h5 {
+        font-size: 31.px;
+        font-weight: 700;
+        padding: 50px 5% 10px;
     }
 
     .section_our_reactive_team-h4 {
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 30px;
-        margin: 20px 0 0;
+        font-size: 19px;
+        font-weight: 700;
+        padding: 20px 0 0;
     }
 
     .section_our_reactive_team-h6 {
@@ -233,15 +220,16 @@
         color: #6C6C72;
     }
 
+    .section_our_reactive_team-p {
+        padding: 10px;
+    }
+
     .info_mail {
         display: flex;
-        flex-direction: row;
-        justify-content: left;
         gap: 40px;
-        left: 50%;
-        transform: translate(-50%, -110%);
         max-width: 688px;
         padding: 30px 20px;
+        transform: translate(-50%,-345%);
     }
 
     .info_mail img {
@@ -249,16 +237,9 @@
         height: 60px;
     }
 
-    .info_mail-contacts{
-        text-transform: lowercase;
-        flex-direction: row;
-    }
-
     .info_mail-h6 {
         font-size: 16px;
         font-weight: 400;
-        line-height: 24px;
-        text-align: left;
     }
 
     .info_mail-hr {
@@ -269,46 +250,37 @@
     }
 
     .info_mail-contacts {
-        display: flex;
-        align-items: center;
-        justify-content: left;
-        gap: 10px;
         flex: 1;
+        text-transform: lowercase;
+        flex-direction: row;
     }
 
     .display_footer {
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        margin: 70px 0;
+        margin: 70px 0 10px;
     }
 
     .display_footer_div {
         width: 35%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
     }
 
     .display_footer_div_quick {
-        padding: 0 80px 0 15px; 
+        padding: 0 20% 5% 10%;
     }
 
     .footer {
-        padding: 100px 30px 0;  
+        padding: 100px 30px 0;
     }
 
     .bottom_logos{
-        gap: 20px;
+        gap: 15px;
     }
 
     .footer-h4 {
-        font-size: 31px;
-        font-weight: 700;
-        line-height: 47px;
-        text-align: left;
-        margin: 0;
-        margin-bottom: 10px;
+        margin: 0 0 10px;
     }
 
     .footer-h5 {
@@ -322,22 +294,22 @@
     }
 
     .footer-p {
-        font-size: 16px;
-        font-weight: 400;
-        line-height:    24px;
-        text-align: left;
         margin-top: 13px;
     }
 
+    .footer-container {
+        display: flex;
+        justify-content: center;
+        padding: 40px 60px 0 0;
+    }
+
+    .display_footer {
+        max-width: 768px;
+        width: 100%;
+    }
 
     .quick_link-list {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        margin-bottom: 40px;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
+        padding: 30px 0 0;
     }
 
     .quick_link-list li {
@@ -346,11 +318,17 @@
 
     .footer_email {
         margin: 20px 0;
+        width: 213px;
+    }
+
+    .footer_email-input {
+        padding-left: 10px;
+        height: 50px;
     }
 
     .footer_email-button {
-        width: 50px;
-        margin: 2px;
+        width: 52px;
+        height: 46px;
     }
 
     .fa-solid.fa-paper-plane {
@@ -359,16 +337,5 @@
 
     .card {
         padding: 3% 0 3% 3%;
-    }
-
-
-    .container-phone_2 {
-        width: 30%;
-        display: flex;
-        justify-content: center;
-    }
-
-    .container-cards {
-        width: 50%;
     }
 }

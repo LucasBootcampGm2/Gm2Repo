@@ -220,7 +220,7 @@ body {
 .aboutOurApp-h5 {
     font-size: 25px;
     font-weight: 600;
-    line-height: 37.5px;
+    line-height: 37px;
     margin: 0;
 }
 
@@ -252,11 +252,11 @@ body {
     display: flex;
     box-shadow: 0 0 10px 1px #00000020;
     border-radius: 10px;
-    padding: 5% 0 5% 5%;
+    padding: 20px;
 }
 
 .card-text {
-    padding: 0 15px;
+    padding: 0px 30px;
 }
 
 .card-h6 {
@@ -279,11 +279,14 @@ body {
     width: 10px;
 }
 
+.circle-check {
+    font-size: 20px;
+}
 
 .section_features {
     color: white;
     text-align: center;
-    padding: 80px 35px ;
+    padding: 80px 10px ;
     background-image: url(images/background_Image.png);
     background-size: cover;
 }
@@ -291,13 +294,13 @@ body {
 .section_features-h5 {
     font-size: 25px;
     font-weight: 600;
-    line-height: 37.5px;
+    line-height: 37px;
     margin: 0;
 }
 
 .section_features-p {
     line-height: 24px;
-    margin: 0;
+    margin: 0 28%;
 }
 
 .section_features-h6 {
@@ -311,6 +314,18 @@ body {
     padding: 30px 20px 0;
 }
 
+.feature-p-top {
+    padding: 0 30%;
+}
+
+.feature-p-left,.feature-p-right {
+    padding: 0 30%;
+}
+
+.feature-p-down {
+    padding: 0 25%;
+}
+
 .section_features-img_app {
     margin: 50px 0;
     box-shadow: 45px 15px 50px 1px #00000061;
@@ -320,11 +335,14 @@ body {
 .section_our_reactive_team {
     background-color: white;
     text-align: center;
-    padding: 0 10px 230px;
+    padding-bottom: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section_our_reactive_team-container_h5 {
-    padding: 10% 5%;
+    padding: 70px 0 30px;
 }
 
 .section_our_reactive_team-h5 {
@@ -335,10 +353,12 @@ body {
 }
 
 .section_our_reactive_team-p {
-    line-height: 20px;
-    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 10px 0;
     color: #6C6C72;
-    padding: 5%;
+    font-weight: 400;
+    padding: 15px;
 }
 
 .container-border_team {
@@ -351,7 +371,7 @@ body {
 .border_team {
     padding: 20px 6px;
     border-radius: 10px;
-    box-shadow: 0 10px 20px #00000020;
+    box-shadow: 0 0 10px 1px #00000020;
     max-width: 343px;
     display: flex;
     flex-direction: column;
@@ -532,6 +552,7 @@ body {
     margin: 20px 0;
     display: flex;
     gap: 35px;
+    font-size: 24px;
 }
 
 .bottom_logos-hr {
@@ -551,63 +572,35 @@ body {
     position: relative;
     background-color: #232233;
     color: white;
-    padding: 200px 15px 0;
-}
-
-.footer-logo {
-    font-size: 31px;
-    font-weight: 700;
-    line-height: 47px;
-}
-
-.footer-p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    margin: 0;
+    padding: 120px 15px 0;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer-h4 {
     font-size: 31px;
-    font-weight: 700;
     line-height: 47px;
-    text-align: left;   
-    margin: 50px 0 10px; 
+    font-weight: 700;
+    margin: 50px 0 10px;
 }
 
 .footer-h5 {
     font-size: 25px;
     font-weight: 600;
     line-height: 37px;
-    text-align: left;
     margin: 50px 0 10px;
 }
 
-.info_mail {
-    position: absolute;
-    background-color: white;
-    border-radius: 10px;
-    color: #232233;
-    box-shadow: 0 -22px 100px 0 #00000070;
-    padding: 30px 8px;
-    left: 50%;
-    transform: translate(-50%, -120%);
-    width: 88%;
-    max-width: 343px;
-}
-
-.info_mail-hr {
-    width: 100px;
-    border: 2px solid;
-    margin-top: 15px;
+.footer-p {
+    line-height: 24px;
     margin-bottom: 10px;
 }
 
-.info_mail-h6 {
-    margin: 0;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 30px;
+.footer-bottom_logos{
+    display: flex;
+    gap: 30px;
+    padding: 40px 0 10px;
 }
 
 .quick_link-list {
@@ -627,14 +620,14 @@ body {
 .footer_email {
     background-color: white;
     display: flex;
-    justify-content: space-between;
     margin: 40px 0 50px;
+    border-radius: 5px;
 }
 
 .footer_email-button{
     width: 40px;
     height: 40px;
-    margin: 5px;
+    margin: 2px;
     border: 0;
     border-radius: 4px;
     background-color: #5956E9;
@@ -651,8 +644,8 @@ body {
 .footer_email-input {
     width: 100%;
     border: 0;
-    background-color: white;
     padding-left: 10px;
+    border-radius: 5px;
 }
 
 .copyright {
@@ -667,11 +660,15 @@ body {
     margin: 0;
     font-size: 13px;
     font-weight: 300;
-    line-height: 13px;
 }
 
 .footer-hr {
     margin: 20px 0;
+    width: 100%;
+}
+
+.display_footer {
+    max-width: 375px;
 }
 
 .fa-envelope, .fa-phone {
@@ -679,6 +676,33 @@ body {
     padding: 20px;
     color: white;
     border-radius: 100%;
+}
+
+.info_mail {
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+    color: #232233;
+    box-shadow: 0 -22px 100px 0 #00000070;
+    padding: 30px 8px;
+    left: 50%;
+    transform: translate(-50%,-390%);
+    width: 88%;
+    max-width: 343px;
+}
+
+.info_mail-hr {
+    width: 100px;
+    border: 2px solid;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.info_mail-h6 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
 }
 
 .info_mail-contacts {
